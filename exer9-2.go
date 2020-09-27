@@ -25,6 +25,11 @@ func main() {
 		firstname: "Rob",
 	}
 
+	h2 := teacher{
+		firstname: "Tania",
+	}
+
 	saySomething(&h1)
+	saySomething(&h2)
 
 }
